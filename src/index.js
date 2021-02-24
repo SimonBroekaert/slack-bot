@@ -10,7 +10,3 @@ cronHandler.schedule().then(() => {
 }).catch((error) => {
     console.error("an error occured");
 });
-
-postController.create().catch((error) => {
-    console.warn(error);
-});
